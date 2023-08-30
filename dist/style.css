@@ -1,0 +1,22 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-blur {
+  border-bottom: 0.1 solid black ;
+  
+}
+
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('/dist/font/e409345220cc128b-s.p.woff2') format('woff2');
+}
+
+body {
+  font-family: "MyWebFont" ;
+}
+
+.beforeSkills::before {
+content: "<";
+}
